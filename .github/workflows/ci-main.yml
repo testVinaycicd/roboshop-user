@@ -1,0 +1,11 @@
+name: Ci Main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  common:
+    uses: testVinaycicd/github-resuable-actions/.github/workflows/ci-main.yml@main
+    with:
+      component_name: user
