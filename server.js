@@ -115,7 +115,7 @@ app.post('/login', async (req, res) => {
             res.status(500).send(e);
         }
     } else {
-        req.log.error('database not available');
+        req.log.error('database not  available');
         res.status(500).send('database not available');
     }
 });
