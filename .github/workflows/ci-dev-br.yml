@@ -10,3 +10,4 @@ jobs:
     uses: testVinaycicd/github-resuable-actions/.github/workflows/ci-dev-br.yml@main
     with:
       component_name: user
+      app_type: nodejs
